@@ -1,11 +1,11 @@
 
-# start scraping
-def start():
+
+
+def scrape(url, keywordList):
 
     pass
 
-# stop scraping
-def stop():
-
-    pass
-
+def scrape(urlList, keywordList):
+    for url in urlList:
+        for keyword in keywordList:
+            scrape(url, keyword)

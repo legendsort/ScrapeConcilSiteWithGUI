@@ -2,7 +2,6 @@ import PySimpleGUI as sg
 from scrape import *
 
 font=('courier', 18) #global font
-
 layout = [
     [
         sg.Text("Input new keyword ", font=font),
@@ -15,8 +14,15 @@ layout = [
         sg.Button("Exit", font=font),
     ],
 ]
-
 window = sg.Window("Scraping Tool", layout, margins=(50, 40))
+
+def start():
+
+    pass
+
+def stop():
+
+    pass
 
 # Run the Event Loop
 while True:
