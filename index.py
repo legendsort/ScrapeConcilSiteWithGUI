@@ -14,7 +14,7 @@ layout = [
         sg.Button("Exit", font=font),
     ],
 ]
-window = sg.Window("Scraping Tool", layout, margins=(50, 40))
+window = sg.Window("Property application scraping software", layout, margins=(50, 40))
 
 def start():
 
